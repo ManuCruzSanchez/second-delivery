@@ -1,0 +1,15 @@
+10% si tu proyecto cumple con la validación W3C.
+10% si tu proyecto cumple con las siguientes convenciones de nombre:
+Estilos (atributos id y class). (hypen-case en minúsculas).
+Atributos de etiquetas HTML en minúsculas y sin separación antes y después del signo de igual. 
+Todos los ficheros deben estar formateados (usar opción Format document de Visual Studio Code) con las tabulaciones a 2 espacios.
+Los nombres de los ficheros deben estar con hyphen-case minúsculas.
+Todo menos el contenido debe estar en inglés.
+50% si tu proyecto tiene un Layout responsive que contenga:
+- 20% Un header responsive y footer con media queries para al menos 3 tamaños de dispositivos.
+- 10% Una galería de imágenes con al menos 10 imágenes con media queries para al menos 3 tamaños de dispositivos. Deben ser diferentes
+- 20% Debe haber al menos 3 secciones más que cubran en total al menos el largo de 3 pantallas. Debes utilizar media queries para al menos 3 tamaños de dispositivos diferentes.
+5% si usas algún efecto hover en tu web. Un efecto interesante y no cualquier cosa para conseguir el punto      (Ampliar imagen al pasar el ratón)
+10% Si usas alguna librería y/o framework para los iconos de alguna librería como fontawesome, bootstrap o cualquier otra. Solo lo puede usar para los iconos. El resto de tu trabajo debe estar realizado con HTML, CSS y JavaScript y nada más.
+10% si tiene alguna funcionalidad realizada con JavaScript. (Despliega menú al hacer clic en alguna opción)
+5% si tu proyecto tiene un README.md adecuado, con al menos las secciones de título, descripción, agradecimientos y autor.

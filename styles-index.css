@@ -1,0 +1,250 @@
+:root {
+  --rosa: #ff4c90;
+  --naranja: #fe9754;
+  --amarillo: #ffe857;
+  --amaClaro: #fefd9f;
+  --azul: #cdfef6;
+}
+
+@font-face {
+  font-family: "P3";
+  src: url(fonts/BMSPA___.TTF);
+}
+
+@font-face {
+  font-family: "P4";
+  src: url(fonts/monbaiti.ttf);
+}
+
+@font-face {
+  font-family: yakuza;
+  src: url(fonts/edosz.ttf);
+}
+
+* {
+  font-family: "P4";
+}
+
+html {
+  background-color: var(--azul);
+  scroll-behavior: smooth;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  top: 17px;
+}
+
+h1 {
+  font-family: P3;
+  font-size: 3vw;
+}
+
+p.lore {
+  font-family: "yakuza";
+}
+
+footer {
+  margin: auto;
+  width: 85%;
+  text-align: center;
+  background-color: var(--naranja);
+}
+
+.navbar {
+  width: 85%;
+  font-size: 2vw;
+  margin: auto;
+  padding: 7px;
+  border: 7px solid var(--naranja);
+  background-color: var(--amaClaro);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  float: inline-end;
+}
+
+.menu li a {
+  display: block;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+#me{
+  float: inline-start;
+}
+
+#hmenu {
+  display: none;
+  visibility: hidden;
+  font-size: 2vw;
+  margin: auto;
+  /* padding: 7px; */
+  /* border: 5px solid var(--naranja); */
+  /* background-color: var(--amaClaro); */
+  /* border-radius: 10px; */
+  overflow: hidden;
+}
+
+#hmenu li{
+  padding: 2px;
+  border: 3px solid var(--naranja);
+  background-color: var(--amaClaro);
+}
+
+#icono {
+  width: 40px;
+  visibility: hidden;
+  cursor: pointer;
+  float: right
+}
+
+#intro,
+#why-here,
+#hobbies,
+#future {
+  margin: auto;
+  width: 80%;
+
+  h1:first-child {
+    padding-top: 130px;
+  }
+}
+
+.my-intro{
+  display: flex;
+  justify-content: flex-start;
+}
+
+.formulary{
+  font-family: fantasy;
+  text-align: center;
+}
+
+#form-apart{
+  visibility: hidden;
+}
+
+label {
+  font-family: "P4";
+}
+
+.my-photo{
+  display: flex;
+  height: 425px;
+  margin-right: 50px;
+  margin-left: 30px;
+  margin-bottom: 50px;
+}
+
+p {
+  font-size: 2vw;
+}
+
+.gallery {
+  margin: auto;
+  width: 85%;
+}
+
+.gallery img {
+  height: 200px;
+  margin: 10px;
+}
+
+.gallery img:hover {
+  height: 300px;
+}
+
+
+
+@media only screen and (max-width: 1200px) {
+  .navbar {
+    background-color: aqua;
+  }
+
+  footer {
+
+    background-color: aqua;
+  }
+
+  .gallery img {
+    height: 250px;
+    margin: 10px;
+  }
+
+  #hmenu {
+    visibility: hidden;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .navbar {
+
+
+    background-color: crimson;
+  }
+
+  footer {
+
+    background-color: crimson;
+  }
+
+  .gallery img {
+    height: 300px;
+    margin: 20px;
+  }
+
+  #hmenu {
+    visibility: hidden;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .navbar {
+
+    background-color: var(--azul);
+  }
+
+  footer {
+
+    background-color: black;
+  }
+
+  .menu {
+    visibility: hidden;
+  }
+
+#me{
+  visibility: visible;
+}
+
+  #hmenu {
+    visibility: visible;
+    display: none;
+    text-align: end;
+
+    width: 80%;
+    margin: auto;
+    list-style: none;
+  }
+
+  #icono {
+    width: 40px;
+    visibility: visible;
+  }
+
+  .gallery img {
+    height: 350px;
+    margin: 30px;
+  }
+}
